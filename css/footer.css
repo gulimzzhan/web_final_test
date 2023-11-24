@@ -1,0 +1,89 @@
+.footer {
+     background: #1B1717;
+     padding: 50px;
+}
+
+.footer h4 {
+     color: #fff;
+     font-family: 'Poppins';
+     font-weight: 900;
+     line-height: normal;
+     letter-spacing: 1.75px;
+     text-transform: uppercase;
+     margin-bottom: 15px;
+}
+
+.footer p {
+     color: #fff;
+     font-family: 'Poppins';
+     font-weight: 400;
+     line-height: normal;
+     margin-bottom: 30px;
+     width: 75%;
+}
+
+.footer-icons img {
+     margin: 0 5px;
+}
+
+.footer-icons a {
+     transition: 0.3s;
+}
+
+.footer-icons a:hover {
+     transform: scale(110%);
+     transition: 0.3s;
+}
+
+.footer a {
+     margin-bottom: 15px;
+}
+
+.footer a {
+     color: #fff;
+     font-family: 'Poppins';
+     font-weight: 400;
+     line-height: normal;
+     text-decoration: none;
+}
+
+.footer a:hover {
+     text-decoration: underline;
+}
+
+.subscribe-btn {
+     color: #fff;
+     text-align: center;
+     font-family: 'Poppins';
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     letter-spacing: 1.5px;
+     text-transform: uppercase;
+     background: #757575;
+     padding: 25px 40px;
+     border: none;
+     border-radius: 10px;
+     margin-top: 15px;
+}
+
+
+@media (max-width: 767px) {
+     .footer h4 {
+          font-size: 20px;
+     }
+
+     .footer p,
+     .footer a {
+          font-size: 15px;
+     }
+
+     .footer {
+          height: auto;
+     }
+
+     .footer .global-padding {
+          padding-bottom: 50px;
+     }
+}
